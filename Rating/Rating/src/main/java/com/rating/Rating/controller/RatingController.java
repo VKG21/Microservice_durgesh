@@ -34,6 +34,7 @@ public class RatingController {
 	public ResponseEntity<List<Rating>> getRatings(){
 		System.out.println("miiii");
 		System.out.println("lav");
+		System.out.println("nav");
 		return ResponseEntity.ok(ratingService.getRating());
 	}
 	
