@@ -32,7 +32,7 @@ public class RatingController {
 	
 	@GetMapping("/getAll")
 	public ResponseEntity<List<Rating>> getRatings(){
-		System.out.println("hi");
+		System.out.println("miiii");
 		return ResponseEntity.ok(ratingService.getRating());
 	}
 	
